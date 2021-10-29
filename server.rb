@@ -1,8 +1,5 @@
 # frozen_string_literal: true
 
-# Inspiration
-# https://github.com/gior/vercel-dev-ruby/blob/master/dev/server.rb
-
 require 'webrick'
 
 class_handlers = {}

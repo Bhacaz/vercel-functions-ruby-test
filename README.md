@@ -1,7 +1,7 @@
 # vercel-functions-ruby-test
 
-Ruby Serverless functions are still in Alpha and we can't test it locally
-with Vercel-CLI.
+Ruby Serverless functions are still in Alpha at Vercel and we can't test it locally
+with the Vercel-CLI.
 
 This repo provide a script and examples to test locally your serverless functions.
 
@@ -25,8 +25,11 @@ curl http://localhost:8000/api/now
 curl -X POST 'http://localhost:8000/api/multiply' -H 'Content-Type: application/json' -d '{ "x": 2, "y": 4 }'
 ```
 
-## Limitation
+## Limitations
 
 You must restart your server when you change your `api` files.
 
+## Thanks
+
+Thanks for the inspiration https://github.com/gior/vercel-dev-ruby/
 
