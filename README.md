@@ -15,11 +15,15 @@ This repo provide a script and examples to test locally your serverless function
 
 ### `GET api/now`
 
+[./api/now.rb](https://github.com/Bhacaz/vercel-functions-ruby-test/blob/main/api/now.rb)
+
 ```shell
 curl http://localhost:8000/api/now
 ```
 
 ### `POST api/multiply`
+
+[./api/multiply.rb](https://github.com/Bhacaz/vercel-functions-ruby-test/blob/main/api/multiply.rb)
 
 ```shell
 curl -X POST 'http://localhost:8000/api/multiply' -H 'Content-Type: application/json' -d '{ "x": 2, "y": 4 }'
