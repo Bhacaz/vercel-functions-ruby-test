@@ -5,6 +5,8 @@ with the Vercel-CLI.
 
 This repo provide a script and examples to test locally your serverless functions.
 
+No need to modify this script. The script will explore the `api` folder to create each `.rb` file a GET and POST endpoint.
+
 ## Installation
 
 1. Copy the `server.rb` file into your root directory of your project.
