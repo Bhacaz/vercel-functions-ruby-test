@@ -29,11 +29,14 @@ curl http://localhost:8000/api/now
 curl -X POST 'http://localhost:8000/api/multiply' -H 'Content-Type: application/json' -d '{ "x": 2, "y": 4 }'
 ```
 
-## Limitations
+## Auto restart
 
-You must restart your server when you change your `api` files.
+Use the [gem `rerun`](https://github.com/alexch/rerun) to restart the server on change.
+
+```shell
+rerun --dir api server.rb 
+```
 
 ## Thanks
 
 Thanks for the inspiration https://github.com/gior/vercel-dev-ruby/
-
